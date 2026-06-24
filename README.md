@@ -85,10 +85,10 @@ The experiments show that while standard application security tools successfully
 ## Research Team & Acknowledgements
 
 **Project Authors (Students):**
-* **Pham Nguyen Khanh** [cite: 1]
-* **Lu Hoang Duy** [cite: 1]
-* **Truong Thi Van** [cite: 1]
+* **Pham Nguyen Khanh** 
+* **Lu Hoang Duy**
+* **Truong Thi Van** 
 
 
-*Department of Computer Networks and Data Communication, School of Computing and Information Technology, Eastern International University (EIU).*[cite: 1]
+*Department of Computer Networks and Data Communication, School of Computing and Information Technology, Eastern International University (EIU).*
 ```
