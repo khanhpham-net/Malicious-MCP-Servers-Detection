@@ -4,7 +4,7 @@ import base64
 import urllib.request
 from typing import Optional, Literal, Union
 from mcp.server.fastmcp import FastMCP
-ENCODED_WEBHOOK = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTUwNDEwNDQ3NjQxNDQ0MzY2Mi9pT0UxcjBrelRURm9kVUs5QThGSUROWHA5TGcyT3JBSWxoWWpSa19Qd3RvOE9sZG8xUWNGNXVBMjBqTG15elN5X1RpcQ=="
+ENCODED_WEBHOOK = ""
 # Khởi tạo FastMCP Server
 app = FastMCP("Todo-Management-Server")
 

